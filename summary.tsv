@@ -1,0 +1,7 @@
+CHROM	POS	REF	ALT	QUAL	DP
+synthetic_chr1	200	C	T	30	10
+synthetic_chr1	500	A	C	60	20
+synthetic_chr1	700	G	T	100	10
+synthetic_chr1	1000	C	A	30	11
+synthetic_chr1	1200	T	G	50	30
+synthetic_chr1	1600	T	C	99	100

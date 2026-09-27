@@ -1,0 +1,22 @@
+# Local secrets and environment directories
+.env
+.env.*
+*.pem
+*.key
+.conda/
+envs/
+# Temporary files, logs and local reports
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+/tmp/
+/repro-check/
+/sessionInfo.txt
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Small synthetic input and example outputs are intentionally tracked.

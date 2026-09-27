@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=bio-repro-vcf-filter-synthetic
+##contig=<ID=synthetic_chr1,length=2000>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Synthetic site read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+synthetic_chr1	200	v02	C	T	30	PASS	DP=10
+synthetic_chr1	500	v05	A	C	60	PASS	DP=20
+synthetic_chr1	700	v07	G	T	100	PASS	DP=10
+synthetic_chr1	1000	v10	C	A	30	PASS	DP=11
+synthetic_chr1	1200	v12	T	G	50	PASS	DP=30
+synthetic_chr1	1600	v16	T	C	99	PASS	DP=100
